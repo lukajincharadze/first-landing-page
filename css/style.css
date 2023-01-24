@@ -7,6 +7,9 @@ font-style: normal; */
 font-weight: 700;
 font-style: normal; */
 
+
+/* NAVIGATION */
+
 header {
     margin-top: 20px;
 }
@@ -45,28 +48,30 @@ html {
     vertical-align: -14px;
 }
 
+
+/* END NAVIGATION */
+
+
+/* FIRST BOX DIV */
 .big-title {
     font-weight: bold;
     font-family: "Helvetica", sans-serif;
     font-size: 26px;
     margin-top: 45px;
     margin-bottom: 40px;
-    margin-left: 140px;
-}
-
-.trending-box {
-    margin-left: 140px;
 }
 
 .trending-img {
     width: 360px;
-    height: 200px;
+    height: auto;
     padding-bottom: 35px;
     border-radius: 6px 6px 0px 0px;
 }
 
 .textONphoto {
     position: relative;
+    overflow:hidden;
+    height: 180px;
 }
 
 .onPhoto-text {
@@ -74,30 +79,36 @@ html {
     font-family: "Helvetica", sans-serif;
     font-weight: bold;
     position: absolute;
-    top: 40px;
+    top: 60px;
     left: 48px;
     color: #fff;
+}
+.two, .three {
+    margin-left: 36px;
 }
 
 .first-box {
     width: 360px;
-    height: 300px;
+    height: 360px;
     background-color: #fff;
     border-radius: 0px 0px 6px 6px;
+    display: inline-block;
 }
+
 
 .light-text {
     font-size: 13px;
     color: #a6adb4;
     font-family: "acumin-pro", sans-serif;
+    padding-top: 77px;
     padding-left: 40px;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 .lightText_div {
     width: 280px;
     height: 38px;
-    margin-bottom: 11px;
+    margin-bottom: 20px;
 }
 
 .trending-time__logo {
@@ -117,11 +128,25 @@ html {
 
 .timeLogoText__div {
     margin-left: 40px;
+    padding-top: 70px;
 }
 
+.trending-box {
+    width: 1160px;
+    margin: 0 auto;
+}
 
+.TWO {
+    position: absolute;
+    bottom: -100px;
+    border-radius: 6px 6px 0px 0px;
+}
 
-
+.THREE {
+    position: absolute;
+    bottom: -200px;
+    border-radius: 6px 6px 0px 0px;
+}
 
 
 
