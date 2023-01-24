@@ -1,0 +1,133 @@
+/* font-family: "acumin-pro", sans-serif;
+font-weight: 400;
+font-style: normal; */
+
+
+/* font-family: "acumin-pro", sans-serif;
+font-weight: 700;
+font-style: normal; */
+
+header {
+    margin-top: 20px;
+}
+
+html {
+    background-color: #f6f8f9;
+}
+
+.nav-first__li {
+    font-size: 20px;
+    color: #fa6980;
+    font-weight: bold;
+    font-family: "Helvetica", sans-serif;
+    margin-right: 100px;
+    margin-left: 40px;
+}
+
+.nav-li {
+    display: inline-block;
+    font-family: "Helvetica", sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: rgb(44, 44, 44);
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.grey {
+    color: gray;
+}
+
+.nav-girl__img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    vertical-align: -14px;
+}
+
+.big-title {
+    font-weight: bold;
+    font-family: "Helvetica", sans-serif;
+    font-size: 26px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    margin-left: 140px;
+}
+
+.trending-box {
+    margin-left: 140px;
+}
+
+.trending-img {
+    width: 360px;
+    height: 200px;
+    padding-bottom: 35px;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.textONphoto {
+    position: relative;
+}
+
+.onPhoto-text {
+    font-size: 16px;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    left: 48px;
+    color: #fff;
+}
+
+.first-box {
+    width: 360px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 0px 0px 6px 6px;
+}
+
+.light-text {
+    font-size: 13px;
+    color: #a6adb4;
+    font-family: "acumin-pro", sans-serif;
+    padding-left: 40px;
+    line-height: 1.5;
+}
+
+.lightText_div {
+    width: 280px;
+    height: 38px;
+    margin-bottom: 11px;
+}
+
+.trending-time__logo {
+    width: 16px;
+    color: #a6adb4;
+    opacity: 0.4;
+}
+
+.timeLogo__text {
+    color: #a6adb4;
+    display: inline-block;
+    vertical-align: 3px;
+    margin-left: 10px;
+    font-family: "acumin-pro", sans-serif;
+    font-size: 13px;
+}
+
+.timeLogoText__div {
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
