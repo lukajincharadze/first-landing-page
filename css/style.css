@@ -35,17 +35,29 @@ html {
     color: rgb(44, 44, 44);
     font-weight: bold;
     margin-left: 40px;
+    border-radius: 100px;
+
 }
 
 .grey {
     color: gray;
 }
 
-.nav-girl__img {
+.profile-Photo {
+    border-radius: 100%;
     width: 40px;
     height: 40px;
-    border-radius: 100%;
-    vertical-align: -14px;
+    overflow:hidden;
+    display: inline-block;
+    position: relative;
+    vertical-align: -12px;
+    margin-left: 40px;
+}
+
+.nav-girl__img {
+    position: absolute;
+    width: auto;
+    height: 50px;
 }
 
 
@@ -63,16 +75,9 @@ html {
 
 .trending-img {
     width: 360px;
-    height: auto;
     padding-bottom: 35px;
-    border-radius: 6px 6px 0px 0px;
 }
 
-.textONphoto {
-    position: relative;
-    overflow:hidden;
-    height: 180px;
-}
 
 .onPhoto-text {
     font-size: 16px;
@@ -83,6 +88,15 @@ html {
     left: 48px;
     color: #fff;
 }
+
+.textONphoto {
+    position: relative;
+    overflow:hidden;
+    height: 180px;
+    border-radius: 6px 6px 0px 0px;
+
+}
+
 .two, .three {
     margin-left: 36px;
 }
@@ -147,7 +161,6 @@ html {
     bottom: -200px;
     border-radius: 6px 6px 0px 0px;
 }
-
 
 
 
