@@ -162,6 +162,32 @@ html {
     border-radius: 6px 6px 0px 0px;
 }
 
+/* END FIRST BOX DIV */
+
+
+
+/* HAPPENING NOW BOX */
+.happening__now-box {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.redbridge-img {
+    width: 760px;
+    height: 430px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+}
+
+.forest2-img {
+    width: 760px;
+    height: 430px; 
+    border-radius: 6px;
+}
+
+
+/* END HAPPENING NOW BOX */
+
 
 
 
