@@ -172,26 +172,72 @@ html {
     margin: 0 auto;
 }
 
-.redbridge-img {
+
+.happening-firstBox {
+    width: 760px;
+    height: 900px;
+    display: inline-block;
+}
+
+.happening_imgs {
     width: 760px;
     height: 430px;
     margin-bottom: 40px;
     border-radius: 6px;
 }
 
-.forest2-img {
-    width: 760px;
-    height: 430px; 
-    border-radius: 6px;
+
+.happening-secondBox {
+    width: 360px;
+    display: inline-block;
 }
 
-
+.happening_imgs2 {
+    width: 360px;
+    height: 210px;
+    border-radius: 6px;
+    margin-bottom: 102px;
+    margin-left: 36px;
+}
 /* END HAPPENING NOW BOX */
 
 
 
+/* FOOTER */
 
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #a6adb4;
+    padding-top: 56px;
+}
 
+.firstUL, .secondUL, .thirdUL, .logo-div {
+    display: inline-block;
+}
 
+.firstUL, .secondUL, .thirdUL {
+    margin-left: 90px;
+}
+
+.logo-div {
+    vertical-align: top;
+}
+
+.footer-logo-text {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-li {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #CBD0D3;
+    line-height: 1.9;
+}
+/* END FOOTER */
 
 
