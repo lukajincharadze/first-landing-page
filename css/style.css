@@ -11,7 +11,9 @@ font-style: normal; */
 /* NAVIGATION */
 
 header {
-    margin-top: 20px;
+    position: fixed;
+    z-index: 1000000;
+    margin-top: 30px;
 }
 
 html {
@@ -148,6 +150,7 @@ html {
 .trending-box {
     width: 1160px;
     margin: 0 auto;
+    padding-top: 120px;
 }
 
 .TWO {
@@ -206,10 +209,15 @@ html {
 /* FOOTER */
 
 .footer {
-    width: 100%;
+    width: 1160px;
+    margin: 0 auto;
     height: 200px;
     background-color: #a6adb4;
     padding-top: 56px;
+}
+
+footer {
+    background-color: #a6adb4;
 }
 
 .firstUL, .secondUL, .thirdUL, .logo-div {
@@ -238,6 +246,32 @@ html {
     color: #CBD0D3;
     line-height: 1.9;
 }
+.footer-li-text {
+    display: inline-block;
+}
+
+.footer-p {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 11px;
+    color: #CBD0D3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    padding-top: 6px;
+}
+
+.footer-logosSOC {
+    display: inline-block;
+    margin-left: 75px;
+    vertical-align: top;
+}
+
+.Soc-logo {
+    display: inline-block;
+    margin-left: 32px;
+    width: 16px;
+}
+
 /* END FOOTER */
 
 
