@@ -180,27 +180,33 @@ html {
     width: 760px;
     height: 900px;
     display: inline-block;
+    overflow: hidden;
+    margin-right: 36px;
 }
 
 .happening_imgs {
     width: 760px;
-    height: 430px;
-    margin-bottom: 40px;
+    height: auto;
     border-radius: 6px;
+    margin-bottom: 40px;
 }
 
 
 .happening-secondBox {
     width: 360px;
+    height: 900px;
     display: inline-block;
+    overflow: hidden;
 }
 
 .happening_imgs2 {
     width: 360px;
-    height: 210px;
+    height: auto;
     border-radius: 6px;
-    margin-bottom: 102px;
-    margin-left: 36px;
+    margin-bottom: 90px;
+}
+
+.img11 {
 }
 /* END HAPPENING NOW BOX */
 
@@ -218,6 +224,7 @@ html {
 
 footer {
     background-color: #a6adb4;
+    margin-top: 40px;
 }
 
 .firstUL, .secondUL, .thirdUL, .logo-div {
